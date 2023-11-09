@@ -1,0 +1,38 @@
+@import 'xs.css';
+@import 's.css';
+@import 'm.css';
+@import 'l.css';
+@import 'xl.css';
+@import url(./var.css);
+
+@font-face {
+    font-family: title;
+    src: url(../fonts/B-Titr/B\ Titr\ Bold_0.ttf);
+}
+@font-face {
+    font-family: text;
+    src: url(../fonts/B_NAZANIN/B-NAZANIN.TTF);
+}
+@font-face {
+    font-family: logo;
+    src: url(../fonts/Rezvan/Rezvan-fat.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    font-size: 0.625rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: title;
+}
+p,a,button{
+    font-family: text;
+}
+i{
+    cursor: pointer;
+}

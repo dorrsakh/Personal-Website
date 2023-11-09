@@ -1,0 +1,27 @@
+:root{
+    --bg-color-nude: #FFFAEB;
+    --title-color: #102A42;
+    --text-color: #F1F5F8;
+    --secondary-yellow: #e9b949;
+    --secondary-bg: #FCEEC5;
+    --footer-color: #222222;
+    --text-footer: #5D7798;
+    --text-hero: #617da2;
+    --btn-hover: #f9da8b;
+    --skill-title: #513C06;
+    --skill-name: #963c06;
+    --font-title: url(../fonts/B-Titr/B\ Titr\ Bold_0.ttf);
+    --font-text: url(../fonts/B_NAZANIN/B-NAZANIN.TTF);
+    --font-logo: url(../fonts/Rezvan/Rezvan-fat.ttf);
+}
+
+.w-100{
+    width: 100%;
+}
+.w-100-h-fit{
+    width: 100%;
+    height: fit-content;
+}
+.trns{
+    transition: all 300ms linear;
+}
